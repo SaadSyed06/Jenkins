@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
     <link data-th-href="@{/css/main.css?{id}(id=${timestamp})}" rel="stylesheet">
-    <title>CI/CD Master Class By Abhishek Veeramalla</title>
+    <title>CI/CD By Saad Syed</title>
 </head>
 <body>
 
@@ -15,6 +15,7 @@
 <main role="main" class="container">
     <div class="starter-template">
         <h1 th:text="${title}">Default title.</h1>
+        <p th:text="${msg}">Default text.</p>
         <p th:text="${msg}">Default text.</p>
     </div>
 </main>
